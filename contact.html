@@ -82,105 +82,59 @@
 </section>
 
 
-<!-- contact form start
-<section class="contact-form">
-    <div class="container">
-        <div class="row">
-            <form id="contact-form" >
-                <div class="col-md-6 col-sm-12">
-                    <div class="block">
-                        
-                        <div class="form-group">
-                            <input name="user_name" type="text" class="form-control" placeholder="Your Name">
-                        </div>
-                        <div class="form-group">
-                            <input name="user_email" type="text" class="form-control" placeholder="Email Address">
-                        </div>
-                        <div class="form-group">
-                            <input name="user_subject" type="text" class="form-control" placeholder="Subject">
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-sm-12">
-                    <div class="block">
-                        <div class="form-group-2">
-                            <textarea name="user_message" class="form-control" rows="3" placeholder="Your Message"></textarea>
-                        </div>
-                            <button class="btn btn-default" type="submit">Send Message</button>
-                    </div>
-                </div>
-                <div class="error" id="error">Error: Message not sent</div>
-                <div class="success" id="success">Message Sent</div>
-            </form>
-        </div>
-        <div class=" contact-box row">
-            <div class="col-md-6 col-sm-12">
-                <div class="block">
-                    <h2>Stop By For A visit</h2>
-                    <ul class="address-block">
-                        <li>
-                            <i class="ion-ios-email-outline"></i>Email: tech@kjbara.com
-                        </li>
-                        <li>
-                            <i class="ion-ios-telephone-outline"></i>Phone: (407) 749-9807
-                        </li>
-                    </ul>
-                    <ul class="social-icons">
-                        <li>
-                            <a href="http://www.themefisher.com"><i class="ion-social-googleplus-outline"></i></a>
-                        </li>
-                        <li>
-                            <a href="http://www.themefisher.com"><i class="ion-social-linkedin-outline"></i></a>
-                        </li>
-                        <li>
-                            <a href="http://www.themefisher.com"><i class="ion-social-pinterest-outline"></i></a>
-                        </li>
-                        <li>
-                            <a href="http://www.themefisher.com"><i class="ion-social-dribbble-outline"></i></a>
-                        </li>
-                        <li>
-                            <a href="http://www.themefisher.com"><i class="ion-social-twitter-outline"></i></a>
-                        </li>
-                        <li>
-                            <a href="http://www.themefisher.com"><i class="ion-social-facebook-outline"></i></a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-            <div class="col-md-6 col-sm-12">
-                <div class="block">
-                    <h2>We Also Count In Google Map</h2>
-                    <div class="google-map">
-                        <div id="map"></div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
--->
 
 <!-- JotForm <script type="text/javascript" src="https://form.jotform.com/jsform/82195642624157"></script> -->
 
-<!-- Cognito Form -->
+<!-- Cognito Form
 	<div class="cognito">
 		<script src="https://services.cognitoforms.com/s/iafyT7FxJ0i_viQxVUaq3g"></script>
 		<script>Cognito.load("forms", { id: "2" });</script>
 	</div> 
+-->
 
-<!-- FoxyForm -->
-<!-- Do not change the code! -->
-<a id="foxyform_embed_link_932658" href="http://www.foxyform.com/">foxyform</a>
-<script type="text/javascript">
-(function(d, t){
-   var g = d.createElement(t),
-       s = d.getElementsByTagName(t)[0];
-   g.src = "http://www.foxyform.com/js.php?id=932658&sec_hash=f4d70243e7c&width=350px";
-   s.parentNode.insertBefore(g, s);
-}(document, "script"));
-</script>
-<!-- Do not change the code! -->
 
+
+<div class="inner contact">
+                <!-- Form Area -->
+                <div class="contact-form">
+                    <!-- Form -->
+                    <form id="contact-us" method="post" action="#">
+                        <!-- Left Inputs -->
+                        <div class="col-xs-6 wow animated slideInLeft" data-wow-delay=".5s">
+                            <!-- Name -->
+                            <input type="text" name="name" id="name" required="required" class="form" placeholder="Name" />
+                            <!-- Email -->
+                            <input type="email" name="mail" id="mail" required="required" class="form" placeholder="Email" />
+                            <!-- Subject -->
+                            <input type="text" name="subject" id="subject" required="required" class="form" placeholder="Subject" />
+                        </div><!-- End Left Inputs -->
+                        <!-- Right Inputs -->
+                        <div class="col-xs-6 wow animated slideInRight" data-wow-delay=".5s">
+                            <!-- Message -->
+                            <textarea name="message" id="message" class="form textarea"  placeholder="Message"></textarea>
+                        </div><!-- End Right Inputs -->
+                        <!-- Bottom Submit -->
+                        <div class="relative fullwidth col-xs-12">
+                            <!-- Send Button -->
+                            <button type="submit" id="submit" name="submit" class="form-btn semibold">Send Message</button> 
+                        </div><!-- End Bottom Submit -->
+                        <!-- Clear -->
+                        <div class="clear"></div>
+                    </form>
+
+                    <!-- Your Mail Message -->
+                    <div class="mail-message-area">
+                        <!-- Message -->
+                        <div class="alert gray-bg mail-message not-visible-message">
+                            <strong>Thank You !</strong> Your email has been delivered.
+                        </div>
+                    </div>
+
+                </div><!-- End Contact Form Area -->
+            </div><!-- End Inner -->
+
+</br>
+</br>
 
 
 <!-- footer Start -->
