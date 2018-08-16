@@ -129,7 +129,7 @@
   <div class="container">
     <div class="row">
       <div class="section-title">
-        <h2>Services</h2>
+        <h2>Our Services</h2>
         <!--<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, 
 		<br> there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics</p>-->
       </div>
@@ -138,33 +138,32 @@
       <div class="col-sm-6 col-md-3">
         <div class="service-item">
           <i class="icon ion-coffee"></i>
-          <h4>Networks</h4>
+          <h4>
+</h4>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut </p>
         </div>
       </div>
       <div class="col-sm-6 col-md-3">
         <div class="service-item">
           <i class="ion-compass"></i>
-          <h4>Hardware</h4>
+          <h4>Web Design</h4>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut </p>
         </div>
       </div>
       <div class="col-sm-6 col-md-3">
         <div class="service-item">
           <i class="ion-image"></i>
-          <h4>Software</h4>
+          <h4>App Design</h4>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut </p>
         </div>
       </div>
       <div class="col-sm-6 col-md-3">
         <div class="service-item">
           <i class="ion-bug"></i>
-          <h4>Repair</h4>
+          <h4>Start Up</h4>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut </p>
         </div>
       </div>
-      
-      <!--
       <div class="col-sm-6 col-md-3">
         <div class="service-item">
           <i class="ion-headphone"></i>
@@ -194,27 +193,20 @@
         </div>
       </div>
     </div>
-  </div>-->
+  </div>
 </section>
-
 <!-- Call to action Start -->
+
 <section class="call-to-action bg-1 section-sm overly">
 	<div class="container">
 		<div class="row">
 			<div class="col-md-12">
 				<div class="block">
-					<!--<h2>We design delightful digital experiences.</h2>
+					<h2>We design delightful digital experiences.</h2>
 					<p>Read more about what we do and our philosophy of design. 
 						Judge for yourself The work and results <br> we’ve achieved for other clients, 
 						and meet our highly experienced Team who just love to design.</p>
-					<a class="btn btn-main btn-solid-border" href="#" >Tell Us Your Story</a>-->
-
-					<h2></h2>
-                                        <p>
-						<br>
-					</p>
-                                        <!--<a class="btn btn-main btn-solid-border" href="#" >Tell Us Your Story</a>-->
-
+					<a class="btn btn-main btn-solid-border" href="#" >Tell Us Your Story</a>
 				</div>
 			</div>
 		</div>
@@ -223,25 +215,29 @@
 
 <!-- footer Start -->
 <footer class="footer">
- <div class="container">
-  <div class="row">
-   <div class="col-md-12">
-    <div class="footer-manu">
-     <ul>
-      <li><a href="index.html">Home </a> | <a href="contact.html"> Contact</a></li>
-     </ul>
-   </div>
-    <p class="copyright">Copyright 2018 &copy; Karam Jbara. All rights reserved.<br></p>
-   </div>
-  </div>
- </div>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<div class="footer-manu">
+					<ul>
+						<li><a href="#">Home </a> |
+						<a href="#"> Contact</a></li>
+					</ul>
+				</div>
+					<p class="copyright">Copyright 2018 &copy; Karam Jbara. All rights reserved.<br></p>
+			</div>
+		</div>
+	</div>
 </footer>
 
     <!-- 
     Essential Scripts
     =====================================-->
+    
     <!-- <script src="js/jquery.counterup.js"></script> -->
+    
     <!-- Main jQuery -->
+   
     <script src="https://code.jquery.com/jquery-git.min.js"></script>
     <!-- Bootstrap 3.1 -->
     <script src="plugins/bootstrap/js/bootstrap.min.js"></script>
@@ -253,13 +249,23 @@
     <script src="plugins/mixitup/dist/mixitup.min.js"></script>
     <!-- <script src="plugins/count-down/jquery.lwtCountdown-1.0.js"></script> -->
     <script src="plugins/SyoTimer/build/jquery.syotimer.min.js"></script>
+
+
     <!-- Form Validator -->
     <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery.form/3.32/jquery.form.js"></script>
     <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.11.1/jquery.validate.min.js"></script>
+
+
+    
     <!-- Google Map -->
     <script src="plugins/google-map/map.js"></script>
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAkeLMlsiwzp6b3Gnaxd86lvakimwGA6UA&callback=initMap"></script>    
+
     <script src="js/script.js"></script>
+    
+
+
 
   </body>
   </html>
+   
