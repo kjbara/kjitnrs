@@ -1,3 +1,4 @@
 # kjitnrs
 
-v0.10
+Date: Dec 20 2018
+Note: Added ssh key.
