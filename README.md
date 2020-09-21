@@ -1,5 +1,4 @@
-# kjitnrs
+# Karam Jbara's IT Consultation & Computer Repair Services
 
-### Date: Dec 20 2018
-#### Note: Added ssh key.
-
+#### Project Start Date: Dec 20 2018
+### This is the official website for my IT business
